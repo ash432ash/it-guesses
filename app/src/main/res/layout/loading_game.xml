@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/pic"
+                android:id="@+id/rel_loading">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saw_quote"
+        android:id="@+id/quote"
+        android:textColor="#fefcfc"
+        android:layout_marginTop="188dp"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="@string/quote_credits"
+        android:id="@+id/quote_credits"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/quote"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/l1"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/round_button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/quote_credits"
+        android:layout_toStartOf="@+id/quote_credits"
+        android:layout_marginEnd="8dp"/>
+
+    <Button
+        android:id="@+id/l2"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/round_button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignBottom="@+id/l1"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/l3"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/round_button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginStart="22dp"
+        android:layout_alignTop="@+id/l2"
+        android:layout_toEndOf="@+id/l2"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:text="@string/proceed1"
+        android:id="@+id/proc"
+        android:textColor="#ffffff"
+        android:background="@drawable/proceed"
+        android:textSize="23sp"
+        android:clickable="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:layout_below="@+id/l1"
+        android:layout_centerHorizontal="true"
+        android:onClick="goTo_game_main"
+        android:singleLine="false"/>
+
+</RelativeLayout>

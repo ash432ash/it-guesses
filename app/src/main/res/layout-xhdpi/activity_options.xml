@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.ash432.itguesses.options"
+    android:background="#040404"
+    android:clickable="false"
+    android:orientation="vertical"
+    android:id="@+id/rel"
+    android:screenOrientation="portrait">
+
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/song_credits"
+        android:id="@+id/song_credits"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_above="@+id/song_name"
+        android:layout_centerHorizontal="true"
+        
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/quot_the_fatrat_xenogenisis_quot"
+        android:textColorLink="#FF3D43F2"
+        android:id="@+id/song_name"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/headphones_recommended"
+        android:id="@+id/textView"
+        android:textColor="#ffffff"
+        android:textSize="19sp"
+        
+        android:layout_above="@+id/song_credits"
+        android:layout_alignLeft="@+id/instruct"
+        android:layout_alignStart="@+id/instruct"
+        android:layout_marginBottom="19dp"
+        android:gravity="center" />
+
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:text="@string/play"
+        android:id="@+id/play"
+        android:textColor="@color/button_color"
+        android:background="@drawable/sd"
+        android:textSize="35sp"
+        android:clickable="true"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@+id/hints"
+        android:layout_alignStart="@+id/hints"
+        android:layout_marginTop="9dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/it_guesses"
+        android:id="@+id/title"
+
+        android:focusable="false"
+        android:enabled="false"
+        android:textColor="#ffffff"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        
+        android:layout_alignParentStart="false"
+        android:textSize="60sp"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="260dp"
+        android:layout_height="55dp"
+        android:text="@string/how_to_play"
+        android:id="@+id/instruct"
+        android:textColor="@color/button_color"
+        android:background="@drawable/sd"
+        android:textSize="35sp"
+        android:clickable="true"
+        android:layout_below="@+id/play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:text="@string/hints"
+        android:id="@+id/hints"
+        android:textColor="@color/button_color"
+        android:background="@drawable/sd"
+        android:textSize="35sp"
+        android:clickable="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/instruct"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:text="@string/exit"
+        android:id="@+id/exit"
+        android:textColor="@color/button_color"
+        android:background="@drawable/sd"
+        android:textSize="35sp"
+        android:clickable="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/hints"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <set
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <set
+        android:fillEnabled="true"
+        android:fillAfter="true"
+        android:ordering="sequentially"
+    android:interpolator="@android:anim/accelerate_interpolator">
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="1500"
+        />
+    <translate
+        android:fromXDelta="0"
+        android:toXDelta="12%p"
+        android:duration="1500" />
+</set>
+
+    <set
+        android:interpolator="@android:anim/accelerate_interpolator">
+        <alpha
+            android:fromAlpha="1.0"
+            android:toAlpha="0.0"
+            android:duration="0"
+            />
+    </set>
+
+    <set
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:interpolator="@android:anim/accelerate_interpolator">
+        <alpha
+            android:fromAlpha="0.0"
+            android:toAlpha="1.0"
+            android:duration="1500"
+            />
+        <translate
+            android:fromXDelta="12%p"
+            android:toXDelta="-12%p"
+            android:duration="1500" />
+    </set>
+
+    <set
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:interpolator="@android:anim/accelerate_interpolator">
+        <alpha
+            android:fromAlpha="1.0"
+            android:toAlpha="0.0"
+            android:duration="0"
+            />
+    </set>
+
+    <set
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:interpolator="@android:anim/accelerate_interpolator">
+        <alpha
+            android:fromAlpha="0.0"
+            android:toAlpha="1.0"
+            android:duration="1500"
+            />
+        <translate
+            android:fromXDelta="-12%p"
+            android:toXDelta="0"
+            android:duration="1500" />
+    </set>
+
+    <set
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:interpolator="@android:anim/accelerate_interpolator">
+        <scale
+            android:fromXScale="1.0"
+            android:toXScale="1.5"
+            android:fromYScale="1.0"
+            android:toYScale="1.5"
+            android:duration="1000"
+            android:repeatMode="reverse"
+            />
+    </set>
+
+
+    </set>
+
+

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">It Guesses</string>
+    <string name="play">PLAY</string>
+    <string name="it_guesses"><u>IT GUESSES</u></string>
+    <string name="how_to_play">INSTRUCTIONS</string>
+    <string name="hints">CLUES</string>
+    <string name="exit">EXIT</string>
+    <string name="song_credits">SOUNDTRACK</string>
+    <string name="quot_the_fatrat_xenogenisis_quot">\"THE FATRAT-XENOGENISIS\"</string>
+    <string name="headphones_recommended">Headphones Recommended</string>
+    <string name="is_your_number_here">Is your number here?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="number_of_questions_left">Questions Left : </string>
+    <string name="plays_until_next_clue">Plays Until Next Clue :</string>
+    <string name="answer">Answer</string>
+    <string name="saw_quote">If you are good at anticipating the human mind,it leaves nothing to chance.</string>
+    <string name="quote_credits">Jigsaw, Saw V (Movie)</string>
+    <string name="title_activity_loading">loading</string>
+    <string name="proceed1">Proceed</string>
+</resources>
